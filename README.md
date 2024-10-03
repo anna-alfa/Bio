@@ -1,1 +1,1 @@
-https://anna-alfa.github/Bio1/my-bio1
+https://anna-alfa.github.io/Bio1/my-bio1
