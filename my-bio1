@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Βιογραφικό</title>
+    <style>
+        body {
+            font-family: 'Georgia', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfbcc4;
+            color: #272526;
+            font-size: 18px;
+            background-image: url('υπολογιστής-δουλειά.jpg');
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        body {
+            font-family: 'Georgia', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .sidebar {
+            width: 21%;
+            background-color: #f4f4f4;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar h2 {
+            margin-top: 0;
+        }
+        .content {
+            width: 75%;
+            padding: 20px;
+        }
+        .content h1 {
+            margin-top: 0;
+        }
+        .section {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin-left: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            color: #272526;
+            /*background-image: url('υπολογιστής-δουλειά.jpg');
+            background-color: rgba(255, 255, 255, 0.5);
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;*/
+        } 
+        .section1 {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background-image: url('web-design-button-grey.jpg');
+            background-color: rgba(255, 255, 255, 0.8);
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-position: above right;
+            background-repeat: no-repeat;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #272526;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 0.5rem;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            display: flex;
+        }
+        .skills-list .tick {
+            margin-right: 0.5em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar"><br>
+        <br><h2>Προσωπικά Στοιχεία</h2>
+        <p><strong>Όνομα:</strong> Άννα</p>
+        <p><strong>Επώνυμο:</strong> Αλεξάκη</p>
+        <p><strong>Τόπος Διαμονής:</strong> 54454,Θεσσαλονίκη</p>
+        <p><strong>Email:</strong> anna.413x4@gmail.com</p>
+        <p><strong>Τηλέφωνο:</strong> 6907591159</p>
+        <p><strong>Ημερομηνία Γέννησης:</strong> 15-07-2004</p>
+        <p><strong>Τόπος Γέννησης:</strong> Θεσσαλονίκη</p>
+        <p><strong>Φύλο:</strong> Γυναίκα</p>
+        <p><strong>Εθνικότητα:</strong> Ελληνική</p><br>
+        <br><h2>Γλώσσες</h2>
+            <p>Ελληνικά <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
+            <p>Αγγλικά <span class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span></p><br>
+        <br><h2>Προσωπικά Χαρακτηριστικά</h2>
+        <p>➤ Δημιουργικότητα και ικανότητα επίλυσης προβλημάτων.</p>
+        <p>➤ Ομαδικό πνεύμα και ικανότητα συνεργασίας.</p>
+        <p>➤ Αντοχή στην πίεση και δυνατότητα προσαρμογής σε νέες τεχνολογίες.</p>
+    </div>
+    <div class="content">
+        <div class="section">
+        <h1>ΑΝΝΑ ΑΛΕΞΑΚΗ</h1>
+        <h2>Προφίλ</h2>
+        <p>Ονομάζομαι Άννα Αλεξάκη, είμαι απόφοιτη του τμήματος Τεχνικού Εφαρμογών Πληροφορικής (Πολυμέσα/Web Design-Develop/VideoGames) του ινστιτούτου επαγγελματικής κατάρτισης ΑΚΜΗ Θεσσαλονίκης και αναζητώ θέση πρακτικής άσκησης για την απόκτηση του πτυχίου μου στον τομέα του Web Design.</p>
+    </div>
+    <div class="section">
+    <h2>Δεξιότητες</h2>
+            <ul class="skills-list">
+              <li><span class="tick">✔</span> Ικανότητα προσαρμογής και ανάπτυξης θεμάτων στο Wordpress, καθώς και διαχείρησης βάσεων δεδομένων.</li>
+              <li><span class="tick">✔</span> Γνώση προγραμματισμού σε HTML, CSS, JavaScript για δημιουργία λειτουργικών ιστοσελίδων.</li>
+              <li><span class="tick">✔</span> Γνώση ανάπτυξης στρατηγικών ψηφιακού μάρκετινγκ και δημιουργίας διαφημίσεων στη Google και τα Social Media για αύξηση της online παρουσίας.</li>
+            </ul>
+    </div>
+    <div class="section">
+        <h2>Σεμινάρια</h2>
+        <p>Έχω παρακολουθήσει τα εξής σεμινάρια:</p>
+        <ul>
+            <li>Digital Marketing - Google Adwords (Καμπάνιες Google Ads - Διαφήμηση στη Google)</li>
+            <li>Digital Marketing (Facebook - Instagram Ads)</li>
+            <li>Social Media: Do's and Don'ts</li>
+            <li>UX / UI Design</li>
+            <li>METAVERSE & AI</li>
+            <li>Git & Github</li>
+            <li>Omnicliq - Ηλεκτρονικό Εμπόριο</li>
+            <li>WpGreece - Wordpress Basics</li>
+            <li>WpGreece - Wordpress | Digital Marketing</li>
+            <li>Generative Artificial Intelligence</li>
+            <li>Wordpress - Προσβασιμότητα</li>
+            <li>Digital Content & S.E.O. powered by Omnicliq</li>
+            <li>A.I for Video Games & Ψυχολογία των Video Games</li>
+            <li>Raspberry Basic Configuration</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
