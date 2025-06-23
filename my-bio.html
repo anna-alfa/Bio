@@ -119,10 +119,19 @@
         display: inline-block;
         transform-origin: 0 0;
        }*/
+        .language-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 10px;
+        }
+        .language-row p {
+        margin: 0;
+        padding: 0;
+        }
         .stars {
-         margin-top: -23px;
-         display: flex;
-         justify-content: end;
+        font-size: 20px;
         }
         img {
          margin-top: -20px;
@@ -157,8 +166,14 @@
         <p><strong>Email:</strong> anna.413x4@gmail.com</p>
         <p><strong>Τηλέφωνο:</strong> 6907591159</p><br>
         <br><br><h2>Γλώσσες</h2>
-            <p>Ελληνικά <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span></p>
-            <p>Αγγλικά <span class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span></p><br>
+            <div class="language-row">
+                <p>Ελληνικά</p>
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            </div>
+            <div class="language-row">
+                <p>Αγγλικά</p>
+                <span class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</span>
+            </div><br>
         <br><br><h2>Χαρακτηριστικά</h2>
         <ul class="skills-list1">
         <li><span class="tick"><b>✔</b></span>Δημιουργικότητα και ικανότητα επίλυσης προβλημάτων.</li><br>
