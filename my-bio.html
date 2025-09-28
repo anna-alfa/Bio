@@ -165,8 +165,12 @@
         box-shadow: 0 2px 6px rgba(0,0,0,0.2);
       }
              
-      .container {
+      .container,
+      .container > .secti,
+      .container > .section {
+          display: flex;
           flex-direction: column;
+          width: 100%;
           gap: 0;
       }
              
